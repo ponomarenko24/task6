@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:task_6/details_screen.dart';
 import 'package:task_6/home_screen.dart';
 import 'package:task_6/special_offer_screen.dart';
-
 
 void main() {
   runApp(const MainApp());
@@ -17,10 +17,8 @@ class MainApp extends StatelessWidget {
       routes: {
         '/': (context) => HomeScreen(),
         '/special': (context) => SpecialOfferScreen(),
-        }
+        '/details': (context) => DetailsScreen(),
+      },
     );
   }
 }
-
-
-
